@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Моё портфолио</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a href="#" class="logo">Alex Design</a>
+        <nav class="main-nav">
+          <a href="#about">О себе</a>
+          <a href="#projects">Проекты</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <h1>Привет! Я Алекс, веб‑дизайнер и разработчик</h1>
+          <p>Создаю удобные и красивые сайты, люблю чистый код и минимализм.</p>
+          <a href="#contact" class="btn">Связаться со мной</a>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>Обо мне</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                Занимаюсь веб‑разработкой 3 года. Люблю работать с типографикой,
+                цветами и анимациями. В свободное время изучаю новые фреймворки
+                и делаю пет‑проекты.
+              </p>
+              <ul class="skills-list">
+                <li>HTML5 / CSS3</li>
+                <li>JavaScript</li>
+                <li>Figma</li>
+                <li>Git</li>
+              </ul>
+            </div>
+            <div class="avatar-placeholder"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section bg-light">
+        <div class="container">
+          <h2>Мои проекты</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image"></div>
+              <h3>Лендинг для кофейни</h3>
+              <p>Одностраничный сайт с галереей и формой заказа.</p>
+              <a href="#" class="btn btn-sm">Подробнее</a>
+            </article>
+            <article class="project-card">
+              <div class="project-image"></div>
+              <h3>Блог о путешествиях</h3>
+              <p>Статический сайт на Jekyll с категориями и поиском.</p>
+              <a href="#" class="btn btn-sm">Подробнее</a>
+            </article>
+            <article class="project-card">
+              <div class="project-image"></div>
+              <h3>То‑до приложение</h3>
+              <p>Мини‑приложение на JS с сохранением задач в localStorage.</p>
+              <a href="#" class="btn btn-sm">Подробнее</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-block">
+          <h2>Свяжитесь со мной</h2>
+          <form class="contact-form">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" placeholder="Ваше имя" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="5" placeholder="Расскажите о задаче"></textarea>
+
+            <button type="submit" class="btn">Отправить</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2024 Моё портфолио. Все права защищены.</p>
+      </div>
+    </footer>
+  </body>
+</html>
